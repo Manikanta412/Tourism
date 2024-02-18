@@ -1,0 +1,128 @@
+/* Home.css */
+
+.nav {
+  position: sticky;
+  top: 0;
+  background-color: #0d0c0c;
+  padding: 20px;
+  z-index: 1000; /* Ensure the navigation is above other elements */
+}
+
+.image-container {
+  position: relative;
+  height: 300px; /* Set a fixed height for the image container */
+  z-index: 0; /* Set a lower z-index for the image */
+}
+
+.image-container img {
+  width: 100%;
+  height: 105%;
+  object-fit: cover;
+}
+
+.website-name {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  z-index: 1;
+}
+
+.website-name h1 {
+  font-size: 32px;
+}
+
+/* Home.css */
+
+/* ... (other styles) */
+
+.blog-cards-container {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* Allow cards to wrap to the next line */
+  margin-top: 20px;
+}
+
+.blog-card {
+  background-color: rgb(202, 227, 250);
+  padding: 30px; /* Adjust padding for better layout */
+  border-radius: 10px;
+  border-color: rgb(242, 115, 4);
+  width: calc(30% - 60px); /* Adjust width as per your layout */
+  margin: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for a better look */
+}
+
+.blog-card h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #0d0909; 
+}
+@media (max-width:800px){   /*This @media tag will use to site our web site according to the brands of different types of devices like iphone  ,ipad etc   */
+  
+  .nav {
+    position: sticky;
+    top: 0;
+    background-color: #0d0c0c;
+    padding: 20px;
+    z-index: 1000; /* Ensure the navigation is above other elements */
+  }
+  
+  .image-container {
+    position: relative;
+    height: 300px; /* Set a fixed height for the image container */
+    z-index: 0; /* Set a lower z-index for the image */
+  }
+  
+  .image-container img {
+    width: 98%;
+    height: 105%;
+    object-fit: cover;
+  }
+  
+  .website-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 1;
+  }
+  
+  .website-name h1 {
+    font-size: 32px;
+  }
+  
+  /* Home.css */
+  
+  /* ... (other styles) */
+  
+  .blog-cards-container {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    margin-top: 20px;
+  }
+  
+  .blog-card {
+    background-color: rgb(202, 227, 250);
+    padding: 30px; /* Adjust padding for better layout */
+    border-radius: 10px;
+    border-color: rgb(242, 115, 4);
+    width: calc(30% - 60px); /* Adjust width as per your layout */
+    margin: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for a better look */
+  }
+  
+  .blog-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #0d0909; 
+  }
+}

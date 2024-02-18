@@ -1,0 +1,51 @@
+/* Bea.css */
+
+/* Container */
+.containers {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Sliding Images */
+  .sliding-images {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .sliding-images img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+  }
+  
+  /* Card Container */
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .card {
+    flex-basis: calc(33.33% - 10px);
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Image with Text */
+  .image-with-text {
+    margin-top: 20px;
+  }
+  
+  .image-with-text img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .image-with-text p {
+    text-align: center;
+    color: #333;
+  }
+  

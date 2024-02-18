@@ -1,0 +1,29 @@
+/* New styles for the heading */
+.heading {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Allow content to wrap */
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(16, 16, 10);
+  margin: 50px;
+}
+
+.text-content {
+  max-width: 20% 20% ; /* Adjust content width for responsiveness */
+  margin-bottom: 24px; /* Add margin between content */
+}
+
+.image,
+.img {
+  max-width: 48%; /* Adjust image width for responsiveness */
+  height: auto;
+}
+
+/* Additional styling for the second image */
+.img {
+  order: -1; /* Change the order of the second image to appear before the first */
+}
